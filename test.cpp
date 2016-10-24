@@ -19,7 +19,6 @@ const int mod = 1e9+7;
 const int N = 1e6+10;
 const ll INF = 1e18;
 
-//#define DEBUG
 ll power(ll x,ll y)
 {
     ll t=1;
