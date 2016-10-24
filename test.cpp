@@ -45,7 +45,7 @@ vector<int> ctl(int x)
 }
 int ctb(vector<int> a)
 {
-    int x=0;
+    int x=0,y=0;
     for(int i=3; i>=0; i--) x=x*4+a[i];
     return x;
 }
