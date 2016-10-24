@@ -7,7 +7,6 @@
 #define rep(i,a,b) for(i=a;i<b;i++)
 using namespace std;
 
-//FILE *f1=freopen("2.txt","r",stdin);
 FILE *f2=freopen("2.txt","w",stdout);
 typedef pair<int,int> pii;
 int main()
@@ -44,11 +43,9 @@ int main()
 			int waketime=P.first,index=P.second;
 			if(done[index]>=3) continue;
 			done[index]++;
-		//	cout<<index<<endl;
 			waketim[index]=max(waketim[index],waketime);
 			if(done[index]>=3)
 			{
-			//	cout<<index<<endl;
 				ans=max(ans,waketim[index]);
 				rep(j,0,adj[index].size())
 				Q.push(mp(waketim[index]+1,adj[index][j]));
@@ -61,6 +58,6 @@ int main()
 			cout<<"THIS BRAIN NEVER WAKES UP"<<endl;continue;
 		}
 		cout<<"WAKE UP IN, "<<ans<<", YEARS"<<endl;
-		
+
 	}
 }
