@@ -36,7 +36,7 @@ ll power(ll x,ll y)
 #endif
 int ct[4][105];
 map<char,int> M;
-int dp[105][4*4*4*4];
+int dp[205][8*4*4*4];
 vector<int> ctl(int x)
 {
     vector<int> a;
