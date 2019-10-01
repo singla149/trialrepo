@@ -38,7 +38,7 @@ vector<int> ctl(int x)
     REP(i,4) a.pb(x%4),x/=4;
     return a;
 }
-int ctb(vector<int> a)
+int ctcdscssb(vector<int> a)
 {
     int x=0;
     for(int i=3; i>=0; i--) x=x*4+a[i];
