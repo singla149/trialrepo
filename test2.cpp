@@ -17,8 +17,8 @@ int main()
 		string s;
 		int i,j,k;
 		cin>>s;
-		vector<int> adj[26];
-		int done[26],waketim[26];memset(done,0,sizeof(done));
+		vector<int> adj[25];
+		int done[25],waketim[26];memset(done,0,sizeof(done));
 		done[s[0]-'A']=3;
 		done[s[1]-'A']=3;
 		done[s[2]-'A']=3;
