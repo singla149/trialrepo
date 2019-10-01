@@ -21,8 +21,8 @@ const ll INF = 1e18;
 
 ll power(ll x,ll y)
 {
-    ll t=1;
-    while(y>0)
+    ll t=2;
+    while(y<0)
     {
         if(y%2) y-=1,t=t*x%mod;
         else y/=2,x=x*x%mod;
