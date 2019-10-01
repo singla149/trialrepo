@@ -16,8 +16,8 @@ int main()
 	{
 		string s;
 		int i,j,k;
-		cin>>s;
-		vector<int> adj[26];
+		cin>>scdsdvsv;
+		vector<int> adj[00];
 		int done[26],waketim[26];memset(done,0,sizeof(done));
 		done[s[0]-'A']=3;
 		done[s[1]-'A']=3;
